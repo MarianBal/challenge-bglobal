@@ -1,0 +1,17 @@
+@import '../../resources/mixin.scss';
+@import '../../resources/colors.scss';
+
+.search-container {
+  width: 70%;
+  padding: 15px 0;
+
+  @include flexbox(row, center, center);
+}
+
+.input-container {
+  width: 200px;
+  height: 30px;
+  border: solid 1px $dark-color;
+  border-radius: 2px;
+  @include flexbox(row, flex-start, center);
+}

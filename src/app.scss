@@ -1,9 +1,10 @@
+@import './resources/colors.scss';
 * {
   box-sizing: border-box;
-  color: black;
   text-decoration: none;
 }
 
 .app {
   width: 100%;
+  background-color: $background-color;
 }

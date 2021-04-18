@@ -1,5 +1,12 @@
 import React from 'react';
 
-const Main = () => <h2>Hello world</h2>;
+import Search from '../Search/Search';
+import './main.scss';
+
+const Main = () => (
+  <div className='app-container'>
+    <Search />
+  </div>
+);
 
 export default Main;
