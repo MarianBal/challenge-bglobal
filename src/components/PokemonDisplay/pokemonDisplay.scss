@@ -1,0 +1,7 @@
+@import '../../resources/mixin.scss';
+
+.display-container {
+  width: 70%;
+  padding: 15px 0;
+  @include flexbox(row, center, center) flex-wrap: wrap;
+}

@@ -1,0 +1,23 @@
+@import '../../resources/mixin.scss';
+@import '../../resources/colors.scss';
+@import '../../resources/medley.scss';
+
+.card-container {
+  width: 200px;
+  height: 150px;
+  margin: 5px;
+  border: solid 1px $dark-color;
+  border-radius: $border-radius;
+  box-shadow: 2px 2px 3px 1px $dark-color;
+
+  .card-image {
+    height: 100px;
+    background-color: $ligth-color;
+    padding: 7px;
+    @include flexbox(row, center, center);
+
+    img {
+      height: 100%;
+    }
+  }
+}

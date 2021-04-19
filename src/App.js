@@ -1,10 +1,13 @@
+import React from 'react';
+import { BrowserRouter as Router } from 'react-router-dom';
+
 import './app.scss';
 import Main from './components/Main/Main';
 
 const App = () => (
-  <div className="app">
+  <Router>
     <Main />
-  </div>
+  </Router>
 );
 
 export default App;
